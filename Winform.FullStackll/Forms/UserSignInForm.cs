@@ -13,6 +13,8 @@ namespace Winform.FullStackll.Forms
             InitializeComponent();
         }
 
+
+
         private void UserSignInForm_Load(object sender, EventArgs e)
         {
 
@@ -21,7 +23,7 @@ namespace Winform.FullStackll.Forms
         private void button1_Click(object sender, EventArgs e)
         {
 
-            string username = txtFullName.Text;
+            string username =txtUsername.Text;
             string password = txtPassword.Text;
             string Fullname = txtFullName.Text;
 

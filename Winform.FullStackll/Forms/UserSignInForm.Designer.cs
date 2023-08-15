@@ -34,7 +34,7 @@
             btnAdd = new Button();
             label1 = new Label();
             label2 = new Label();
-            textBox1 = new TextBox();
+            txtUsername = new TextBox();
             label3 = new Label();
             label4 = new Label();
             SuspendLayout();
@@ -88,13 +88,13 @@
             label2.TabIndex = 4;
             label2.Text = "Şifre :";
             // 
-            // textBox1
+            // txtUsername
             // 
-            textBox1.Location = new Point(242, 245);
-            textBox1.Margin = new Padding(5, 4, 5, 4);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(293, 32);
-            textBox1.TabIndex = 2;
+            txtUsername.Location = new Point(242, 245);
+            txtUsername.Margin = new Padding(5, 4, 5, 4);
+            txtUsername.Name = "txtUsername";
+            txtUsername.Size = new Size(293, 32);
+            txtUsername.TabIndex = 2;
             // 
             // label3
             // 
@@ -127,7 +127,7 @@
             Controls.Add(label1);
             Controls.Add(btnAdd);
             Controls.Add(txtPassword);
-            Controls.Add(textBox1);
+            Controls.Add(txtUsername);
             Controls.Add(txtFullName);
             Font = new Font("Consolas", 14.2641506F, FontStyle.Bold, GraphicsUnit.Point);
             Margin = new Padding(5, 4, 5, 4);
@@ -147,7 +147,7 @@
         private Button btnAdd;
         private Label label1;
         private Label label2;
-        private TextBox textBox1;
+        private TextBox txtUsername;
         private Label label3;
         private Label label4;
     }
